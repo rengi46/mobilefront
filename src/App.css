@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -11,6 +15,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.selectVideo{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 10px;
+  margin: 10px;
 }
 
 .App-header {
