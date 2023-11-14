@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import { io } from "socket.io-client";
+import { useEffect, useState } from "react";
 
+const socket = io("http://localhost:3001");
 function App() {
+  const [conect, setConect] = useState(false);
+  const [color, setColor] = useState("red");
+  
+  useEffect(() => {
+    socket.on("connect", () => {
+      setConect(true);
+    });
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h2>{conect ? "conectado":"no conectado"}</h2>
+      <input type="color" onChange={(e) => {
+        socket.emit("colorChange", e.target.value);
+      }
+      }/>
     </div>
   );
 }
