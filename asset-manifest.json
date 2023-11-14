@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mobilefront/static/css/main.f855e6bc.css",
-    "main.js": "/mobilefront/static/js/main.b2af1be4.js",
+    "main.css": "/mobilefront/static/css/main.f6b2141c.css",
+    "main.js": "/mobilefront/static/js/main.65b65507.js",
     "static/js/787.2dbc0ab0.chunk.js": "/mobilefront/static/js/787.2dbc0ab0.chunk.js",
     "index.html": "/mobilefront/index.html",
-    "main.f855e6bc.css.map": "/mobilefront/static/css/main.f855e6bc.css.map",
-    "main.b2af1be4.js.map": "/mobilefront/static/js/main.b2af1be4.js.map",
+    "main.f6b2141c.css.map": "/mobilefront/static/css/main.f6b2141c.css.map",
+    "main.65b65507.js.map": "/mobilefront/static/js/main.65b65507.js.map",
     "787.2dbc0ab0.chunk.js.map": "/mobilefront/static/js/787.2dbc0ab0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.b2af1be4.js"
+    "static/css/main.f6b2141c.css",
+    "static/js/main.65b65507.js"
   ]
 }
