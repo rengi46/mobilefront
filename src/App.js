@@ -2,6 +2,9 @@ import './App.css';
 import { io } from "socket.io-client";
 import { useEffect, useState } from "react";
 import gatos from "./images/gato.jpg";
+import perros from "./images/perro.jpg";
+import niños from "./images/niños.jpg";
+import moments from "./images/gracios.jpg";
 
 const socket = io("http://localhost:3001");
 function App() {
@@ -22,16 +25,19 @@ function App() {
       }
       }/> */}
       <div className='selectVideo'>
+        <div className='titulo'>
+          <h2>Que quieres ver ?</h2>
+        </div>
         <img src={gatos} onClick={() => {
           socket.emit("videoChange", "gatos");
         }}/>
-        <img src={gatos} onClick={() => {
+        <img src={perros} onClick={() => {
           socket.emit("videoChange", "perros");
         }}/>
-        <img src={gatos} onClick={() => {
+        <img src={niños} onClick={() => {
           socket.emit("videoChange", "niños");
         }}/>
-        <img src={gatos} onClick={() => {
+        <img src={moments} onClick={() => {
           socket.emit("videoChange", "moments");
         }}/>
       </div>
