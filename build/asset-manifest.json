@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mobilefront/static/css/main.5acb97b3.css",
+    "main.js": "/mobilefront/static/js/main.0de8cd32.js",
+    "static/js/787.2dbc0ab0.chunk.js": "/mobilefront/static/js/787.2dbc0ab0.chunk.js",
+    "static/media/niños.jpg": "/mobilefront/static/media/niños.c8b271148022f388d7e7.jpg",
+    "static/media/perro.jpg": "/mobilefront/static/media/perro.fe13f494d4db5196c251.jpg",
+    "index.html": "/mobilefront/index.html",
+    "main.5acb97b3.css.map": "/mobilefront/static/css/main.5acb97b3.css.map",
+    "main.0de8cd32.js.map": "/mobilefront/static/js/main.0de8cd32.js.map",
+    "787.2dbc0ab0.chunk.js.map": "/mobilefront/static/js/787.2dbc0ab0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5acb97b3.css",
+    "static/js/main.0de8cd32.js"
+  ]
+}
